@@ -31,7 +31,7 @@ def UrlValidator(url):
 		return 2
 
 def Shorter(url):
-	Request = requests.get("http://yeo.ir/api.php?url=" + url)
+	Request = requests.get("https://shrtco.de/api?url=" + url)
 	return Request.text	
 
 def SaveUserInformation(bot, update):
