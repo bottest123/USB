@@ -15,7 +15,7 @@ from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
 
 
-TOKEN		=		"<BOT TOKEN>" # Your Bot Token Here
+TOKEN		=		"<620472523:AAF-6nir55yctdZ8P3n_A3YZp_b5Q0I3Uc8>" # Your Bot Token Here
 updater 	= 		Updater(token=TOKEN)
 dispatcher 	= 		updater.dispatcher
 
